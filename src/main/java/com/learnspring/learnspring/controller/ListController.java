@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class ListController {
     @GetMapping("/showList")
     public String showList() {
-        return "allList";
+        return "index";
     }
 
     @GetMapping("/showHome")
